@@ -3,8 +3,8 @@ using namespace std;
 using ll = long long;
 
 #define range std::ranges::iota_view
-const char nl = '\n';
-const int MOD = 1e9 + 7;
+#define nl '\n'
+#define MOD 1'000'000'007;
 
 void fn() {}
 
