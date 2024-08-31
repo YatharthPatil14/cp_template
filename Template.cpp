@@ -1,9 +1,8 @@
 #include<bits/stdc++.h>
 using namespace std;
+using ll = long long;
 
-#define ll long long
 #define range std::ranges::iota_view
-
 const char nl = '\n';
 const int MOD = 1e9 + 7;
 
