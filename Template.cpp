@@ -2,7 +2,7 @@
 using namespace std;
 using ll = long long;
 
-#define range std::ranges::iota_view
+#define _ ' '
 #define nl '\n'
 #define MOD 1'000'000'007;
 
