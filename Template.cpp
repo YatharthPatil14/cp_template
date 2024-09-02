@@ -1,10 +1,9 @@
 #include<bits/stdc++.h>
-using namespace std;
-using ll = long long;
-
+#define ll long long
 #define _ ' '
 #define nl '\n'
-#define MOD 1'000'000'007;
+#define MOD 1'000'000'007
+using namespace std;
 
 void fn() {}
 
