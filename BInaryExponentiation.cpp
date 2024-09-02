@@ -1,11 +1,11 @@
-int pow(int base, int power) {
-    if (base == 1 || power == 0) {return 1;}
-    if (base == 0) {return 0;}
-    ll result = 1;
-    while(power > 0) {
-        if (power & 1) {(result *= base) %= MOD;}
-        power >>= 1;
-        base = (base * base) % MOD;
+int pow(int base, int p) {
+    if (base == 1 || p == 0) { return 1; }
+    if (base == 0) { return 0; }
+    ll output = 1, b = base;
+    while(p > 0) {
+        if (p & 1) { (output *= b) %= MOD; }
+        p >>= 1;
+        b = (b * b) % MOD;
     }
-    return result;
+    return output;
 }
