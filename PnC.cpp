@@ -4,7 +4,7 @@ int fact_inv[N + 1];
 
 int pow(int a, int b) {
     int out = 1;
-    while(b > 0) {
+    while (b > 0) {
         if (b & 1) 
             { (out *= a) %= MOD; }
         b >>= 1;
