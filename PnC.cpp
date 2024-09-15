@@ -1,4 +1,3 @@
-
 int pow(int a, int b) {
     int out = 1;
     while (b > 0) {
