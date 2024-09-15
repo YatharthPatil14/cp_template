@@ -1,6 +1,3 @@
-const int N = 2'00'000;
-int fact[N + 1];
-int fact_inv[N + 1];
 
 int pow(int a, int b) {
     int out = 1;
@@ -12,6 +9,10 @@ int pow(int a, int b) {
     }
     return out;
 }
+
+const int N = 2'00'000;
+int fact[N + 1];
+int fact_inv[N + 1];
 
 void pre() {
     fact[0] = fact_inv[0] = fact [1] = fact_inv[1] = 1;
